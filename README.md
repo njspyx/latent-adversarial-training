@@ -1,4 +1,4 @@
-# Targeted Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs
+# Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs
 
 Abhay Sheshadri,* [asheshadri31@gatech.edu](asheshadri31@gatech.edu); 
 Aidan Ewart,* [aidanprattewart@gmail.com](aidanprattewart@gmail.com); 
