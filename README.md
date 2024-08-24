@@ -16,6 +16,8 @@ See our [models on Hugging Face Hub:](https://huggingface.co/LLM-LAT).
 
 Read the paper on arXiv: [Targeted Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs](https://arxiv.org/abs/2407.15549).
 
+Chat with our robust refusal model ([https://huggingface.co/LLM-LAT/robust-llama3-8b-instruct](https://huggingface.co/LLM-LAT/robust-llama3-8b-instruct)) at [https://www.abhayesian.com/lat-chat](https://www.abhayesian.com/lat-chat).
+
 ```
 @article{sheshadri2024targeted,
   title={Targeted Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs},
