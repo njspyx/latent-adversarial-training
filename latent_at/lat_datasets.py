@@ -204,7 +204,10 @@ def process_generic_chat_dataset(
             dataset = dataset.rename_column(adv_column, "adv_completion")
     
     if def_column != "def_completion":
-        dataset = dataset.rename_column(def_column, "def_completion")
+        if def_column is None:
+            dataset = dataset.map(lambda x: {"def_completion": "not available"})
+        else:        
+            dataset = dataset.rename_column(def_column, "def_completion")
 
     if system_prompt_column is not None:
         dataset = dataset.rename_column(system_prompt_column, "system_prompt")
