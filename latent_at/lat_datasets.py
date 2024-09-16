@@ -244,8 +244,10 @@ def process_generic_chat_dataset(
 
             if add_eos_token:
                 examples["def_completion"][i] = def_completion + tokenizer.eos_token
+                examples["adv_completion"][i] = adv_completion + tokenizer.eos_token
             else:
                 examples["def_completion"][i] = def_completion
+                examples["adv_completion"][i] = adv_completion
         
         return examples
 
