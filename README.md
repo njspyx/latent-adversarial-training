@@ -49,8 +49,12 @@ undesirable knowledge.</figcaption>
 After you clone and navigate to the repository:
 
 ```angular2html
-pip install -r requirements.txt
+cd latent-adversarial-training
 bash install_tasks_from_github.sh
+pip install -r requirements.txt
+pip install notebook
+python -m ipykernel install --user
+huggingface-cli login
 ```
 
 
